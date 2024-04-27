@@ -1,6 +1,6 @@
 # Setup
 
-Download and install the package manager [nix](https://nixos.org/download/) to easily install and take care of all the dependencies that you need to run the examples.
+Download and install the package manager [nix](https://nixos.org/download/) to easily install and take care of all the dependencies that you need to run the examples. Once downloaded and installed, you can kick off the installation of the dependencies (specified within `shell.nix`) by running `nix-shell`.
 
 If you want to run the bigquery example, you will need to set up a google cloud project and set the `GCS_BUCKET` environment variable (additionally to setting up `gcloud`).
 
