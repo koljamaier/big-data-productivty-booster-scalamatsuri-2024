@@ -37,7 +37,7 @@ shut-down-kafka:
 run-spark-example: download-spark (setup-scala-cli "spark")
   @echo 'Running Spark example'
   cd {{ justfile_directory() }}/spark; \
-  scala-cli run --spark SparkExample.scala
+  scala-cli run --power --spark SparkExample.scala
 
 [private]
 download-spark:

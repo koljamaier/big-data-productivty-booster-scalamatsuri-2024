@@ -10,6 +10,9 @@ pkgs.mkShell {
     pkgs.openjdk17
     pkgs.just
     pkgs.direnv
+    pkgs.nix-direnv
+    pkgs.fzf
+    pkgs.docker-compose
     pkgs.nodejs
     pkgs.scala-cli
   ];
