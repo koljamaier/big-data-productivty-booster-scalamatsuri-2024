@@ -1,6 +1,6 @@
 //> using scala 3
-//> using dep "dev.zio::zio::2.0.22"
-//> using dep "dev.zio::zio-json::0.6.2"
+//> using dep "dev.zio::zio::2.1.1"
+//> using dep "dev.zio::zio-json::0.7.0"
 //> using dep "dev.zio::zio-kafka::2.7.4"
 //> using dep "dev.zio::zio-kafka-testkit::2.7.4"
 
